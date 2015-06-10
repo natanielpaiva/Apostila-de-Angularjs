@@ -4,7 +4,7 @@ Apostila de AngularJs
 ===
 
 AngularJs é um framework Javascript criado pelos desenvolvedores do Google.
-Hoje em dia temos vários frameworks que são para o desenvolvimento do lado cliente(client-side) e o Angular é um dos que mais tem se destacado nos últimos anos.
+Hoje em dia temos vários frameworks que são para o desenvolvimento do lado cliente (client-side) e o Angular é um dos que mais tem se destacado nos últimos anos.
 
 A idéia dessa apostila é mostrar o quanto o AngularJs é últil para que o desenvolvedor front-end consiga criar conteúdos dinâmicos de uma forma mais simples do que seria ele desenvolver o mesmo apenas em Javascript ou até mesmo utilizando algumas bibliotecas como Jquery, Backbonejs e etc.
 
@@ -19,8 +19,6 @@ Existem muitos outros frameworks em Javascript atualmente no mercado, porém o A
 Algumas das vantagens de se utilizar o AngularJs são:
 
 * Separação de conteúdo feita utilizando o paradigma MVC(Separa model, controller e view).
-
 * Two-way databinding: A alteração em alguma model reflete em sua view e caso a alteração seja feita na view também refletirá na model.
-
 * Utiliza um modelo de programação declarativa, ou seja, utiliza templates que podem consumir dados e redesenhar sua forma atual de maneira simples e rápida.
 
