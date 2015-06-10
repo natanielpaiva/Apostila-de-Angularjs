@@ -13,3 +13,9 @@ A idéia dessa apostila é mostrar o quanto o AngularJs é últil para que o des
 Criar um sistema nunca é uma tarefa tão simples, pois é o tipo de coisa que as vezes começa pequeno, mas ao longo do tempo a criança vai crescendo e tomando forma. A diferença é que alguns tomam forma de verdadeiros "monstrinhos" e outros são um pouco mais "bonitinhos", simples de entender, manutenível e etc.
 
 Quando você aprende uma determinada linguagem é importante verificar se já existe algum framework criado para a mesma e se ele tem um número considerável de pessoas que contribuem com o seu aperfeiçoamento.
+
+Existem muitos outros frameworks em Javascript atualmente no mercado, porém o Angular é um dos mais utilizados pelos desenvolvedores e é mantido por nada mais nada menos do que o Google, ou seja, pode ter certeza que você irá aprender um framework que realmente está no mercado e que é constantemente atualizado.
+
+Algumas das vantagens de se utilizar o AngularJs são:
+
+* 
