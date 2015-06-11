@@ -18,7 +18,7 @@ Existem muitos outros frameworks em Javascript atualmente no mercado, porém o A
 
 Algumas das vantagens de se utilizar o AngularJs são:
 
-* Separação de conteúdo feita utilizando o paradigma MVC(Separa model, controller e view).
+* Separação de conteúdo feita utilizando o padrão MVC(Separa model, controller e view).
 * Two-way databinding: A alteração em alguma model reflete em sua view e caso a alteração seja feita na view também refletirá na model.
 * Utiliza um modelo de programação declarativa, ou seja, utiliza templates que podem consumir dados e redesenhar sua forma atual de maneira simples e rápida.
 
