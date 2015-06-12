@@ -97,7 +97,7 @@ Seu index.html completo ficará assim:
 </html>
 ~~~
 
-Agora recarregue o seu navegador e repare que o que está escrito em seu input é exatamente a mensagem que haviamos colocado anteriormente na variável $scope.mensagem e caso você altere o texto do input o mesmo é modificado também abaixo do input. Isso tudo porque o Angular é Two-way databinding.
+Agora recarregue o seu navegador e repare que o que está escrito em seu input é exatamente a mensagem que haviamos colocado anteriormente na variável $scope.mensagem e caso você altere o texto do input o mesmo é modificado também abaixo do input. Isso porque o Angular é Two-way databinding.
 
 
 
