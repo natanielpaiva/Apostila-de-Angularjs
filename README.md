@@ -70,5 +70,7 @@ app.controller('PrimeiraController', function($scope) {
 });
 ~~~
 
+Abra o seu arquivo index.html em algum navegador, de preferência que seja o google chrome. Note que em seu navegador vai aparecer o texto que estava na tag body e também o texto que você colocou dentro da variável mensagem que está dentro do seu arquivo main.js.
+
 
 
