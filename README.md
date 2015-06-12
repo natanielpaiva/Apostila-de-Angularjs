@@ -27,7 +27,7 @@ Criando o primeiro projeto
 ===
 
 Vamos criar o nosso primeiro projeto em AngularJs.
-Não será necessário conhecimento prévio em alguma linguagem de programação, basta você seguir os passos do livro que você vai conseguir se adaptar com o framework e com a linguagem em si, o Javascript.
+Não será necessário conhecimento prévio em alguma linguagem de programação( Sugiro que estude um pouco sobre HTML ), basta você seguir os passos do livro que você vai conseguir se adaptar com o framework e com a linguagem em si, o Javascript.
 
 Siga cada passo sitado abaixo:
 
@@ -36,5 +36,23 @@ Siga cada passo sitado abaixo:
 * Crie uma pasta em seu computador com o nome Estudos Angular.
 * Crie na pasta de estudos uma outra pasta escrita projeto1.
 * Dentro da projeto1 crie uma pasta chamada vendor e coloque o arquivo que você baixou chamado angular.min.js dentro dessa pasta vendor.
-* Dentro da pasta projeto1 crie um arquivo chamado index.html.
+
+
+Arquivos para utilizar o Angular
+===
+
+Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte código:
+
+~~~html
+<!doctype html>
+<html>
+	<head>
+		<title>Título da sua página</title>
+	</head>
+	<body>
+		Corpo da sua página
+	</body>
+</html>
+
+
 
