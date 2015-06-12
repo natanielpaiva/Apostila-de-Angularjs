@@ -71,6 +71,34 @@ app.controller('PrimeiraController', function($scope) {
 ~~~
 
 Abra o seu arquivo index.html em algum navegador, de preferência que seja o google chrome. Note que em seu navegador vai aparecer o texto que estava na tag body e também o texto que você colocou dentro da variável $scope.mensagem que está dentro do seu arquivo main.js.
+Como vimos anteriormente o Angular é Two-way databinding, ou seja, o conteúdo que estiver em sua model irá refletir na view e vice versa. Vamos ver isso de uma forma mais clara no seguinte código:
+
+No index.html vamos colocar o seguinte trecho de código:
+
+~~~html
+<input type="text" ng-model="mensagem" /> 
+~~~
+
+Seu index.html completo ficará assim:
+
+~~~html
+<!doctype html>
+<html ng-app="Projeto1">
+	<head>
+		<title>Título da sua página</title>
+	</head>
+	<body ng-controller="PrimeiraController">
+		<input type="text" ng-model="mensagem" /> <br />
+		{{mensagem}}
+
+		<script src="vendor/angular.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
+~~~
+
+Agora recarregue o seu navegador e repare que o que está escrito em seu input é exatamente a mensagem que haviamos colocado anteriormente na variável $scope.mensagem e caso você altere o texto do input o mesmo é modificado também abaixo do input. Isso tudo porque o Angular é Two-way databinding.
+
 
 
 
