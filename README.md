@@ -46,12 +46,16 @@ Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte
 ~~~html
 <!-- //projeto1/index.html -->
 <!doctype html>
-<html>
+<html ng-app="Projeto1">
 	<head>
 		<title>Título da sua página</title>
 	</head>
-	<body>
-		Corpo da sua página
+	<body ng-controller="PrimeiraController">
+		Corpo da sua página <br />
+		{{mensagem}}
+
+		<script src="vendor/angular.min.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>
 ~~~
@@ -60,7 +64,9 @@ Crie um outro arquivo na pasta raiz do seu projeto chamado main.js e coloque o s
 
 ~~~javascript
 //projeto1/main.js
-var app = angular.module('Funcionarios',[]);
+var app = angular.module('Projeto1',[]);
+app.controller('PrimeiraController', function($scope) {
+	$scope.mensagem = "Olá, esse é o meu primeiro projeto em Angular";
 });
 ~~~
 
