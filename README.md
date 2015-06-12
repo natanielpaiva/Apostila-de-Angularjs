@@ -57,7 +57,7 @@ Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte
 
 Crie um outro arquivo na pasta raiz do seu projeto chamado main.js e coloque o seguinte código:
 
-~~~javascript
+~~~js
 //projeto1/main.js
 var app = angular.module('Funcionarios',[]);
 });
