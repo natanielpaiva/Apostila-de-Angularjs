@@ -27,6 +27,6 @@ Criando o primeiro projeto
 ===
 
 Vamos criar o nosso primeiro projeto em AngularJs.
-Não será necessário conhecimento prévio em alguma linguagem, basta você seguir os passos do livro que você vai conseguir se adaptar com o framework e com a linguagem em si, o Javascript.
+Não será necessário conhecimento prévio em alguma linguagem de programação, basta você seguir os passos do livro que você vai conseguir se adaptar com o framework e com a linguagem em si, o Javascript.
 
 
