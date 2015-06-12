@@ -23,3 +23,10 @@ Algumas das vantagens de se utilizar o AngularJs são:
 * Utiliza um modelo de programação declarativa, ou seja, utiliza templates que podem consumir dados e redesenhar sua forma atual de maneira simples e rápida.
 * SPA (Single Page Application): Uma página na web que proporciona ao usuário uma experiência mais fluida, semelhante ao desktop tendo apenas uma página e assim recarregando seu conteúdo sem precisar carregar a página inteira.
 
+Criando o primeiro projeto
+===
+
+Vamos criar o nosso primeiro projeto em AngularJs.
+Não será necessário conhecimento prévio em alguma linguagem, basta você seguir os passos do livro que você vai conseguir se adaptar com o framework e com a linguagem em si, o Javascript.
+
+
