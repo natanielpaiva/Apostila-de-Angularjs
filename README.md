@@ -44,6 +44,7 @@ Arquivos para utilizar o Angular
 Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte código:
 
 ~~~html
+<!-- //projeto1/index.html -->
 <!doctype html>
 <html>
 	<head>
@@ -53,6 +54,13 @@ Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte
 		Corpo da sua página
 	</body>
 </html>
+
+Crie um outro arquivo na pasta raiz do seu projeto chamado main.js e coloque o seguinte código:
+
+~~~javascript
+//projeto1/main.js
+var app = angular.module('Funcionarios',[]);
+});
 
 
 
