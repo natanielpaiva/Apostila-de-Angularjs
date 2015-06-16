@@ -136,7 +136,18 @@ app.controller('MinhaController', ['$scope', function($scope) {
 
 ~~~
 
-Nó código acima criamos um módulo chamado app para seu segundo projeto.
+Nó código acima criamos um módulo chamado app para seu segundo projeto, depois utilizamos o contrutor do módulo chamando o .controller(), assim mantemos a function fora do escopo global.
+
+Nós configuramos nosso controlador ao DOM utilizando a diretive ng-controller e podemos usar a nossa propriedade mensagem através da angular expression(AE) escrita abaixo:
+
+~~~html
+<div ng-controller="MinhaController">
+   {{mensagem}}
+</div>
+~~~
+
+
+
 
 
 
