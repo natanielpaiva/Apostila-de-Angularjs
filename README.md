@@ -124,7 +124,19 @@ Configurando o estado inicial do objeto $scope
 Quando você cria uma controller é necessário que você configure o estado inicial do objeto do Angular($scope).
 Você configura o mesmo colocando propriedades que serão utilizadas pela view model. Todas as propriedades do seu $scope poderão ser utilizadas onde sua controller está registrada.
 
+O exemplo abaixo mostra uma controller chamada MinhaController com uma propriedade chamada mensagem que contém uma string chamada 'meu segundo projeto':
 
+~~~javascript
+
+var app = angular.module('app',[]);
+
+app.controller('MinhaController', ['$scope', function($scope) {
+  $scope.mensagem = 'meu segundo projeto';
+}]);
+
+~~~
+
+Nó código acima criamos um módulo chamado app para seu segundo projeto.
 
 
 
