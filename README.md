@@ -101,6 +101,24 @@ Agora recarregue o seu navegador e repare que o que está escrito em seu input �
 
 Você pode baixar o projeto1 clicando [aqui](https://github.com/natanielpaiva/curso-angular/tree/master/projeto1).
 
+Conhecendo Controllers
+====
+
+Em angular uma controller é simplesmente um construtor em Javascript( uma function ) que você pode utilizar o argumento do angular chamado $scope.
+
+Quando você coloca em seu HTML o ng-controller que é uma directive do Angular, o mesmo instancia um objeto de Controller com o construtor específico.
+
+A utilidade da controller é:
+* Setar o estado inicial do objeto $scope.
+* Adicionar comportamentos ao objeto $scope.
+
+Não utilize sua controller para:
+* Manipulação do DOM. As controllers devem conter apenas as lógicas de negócio.
+* Formatar input.
+* Filtrar output.
+* Compartilhar códigos entre controllers.
+* Gerenciar o ciclo de vida dos componentes.
+
 
 
 
