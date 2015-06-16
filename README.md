@@ -39,7 +39,7 @@ Siga cada passo sitado abaixo:
 
 
 Arquivos para utilizar o Angular
-===
+---
 
 Crie dentro da pasta do seu projeto um arquivo chamado index.html com o seguinte código:
 
@@ -120,7 +120,7 @@ Não utilize sua controller para:
 * Gerenciar o ciclo de vida de outros componentes.
 
 Configurando o estado inicial do objeto $scope
-====
+---
 Quando você cria uma controller é necessário que você configure o estado inicial do objeto do Angular($scope).
 Você configura o mesmo colocando propriedades que serão utilizadas pela view model. Todas as propriedades do seu $scope poderão ser utilizadas onde sua controller está registrada.
 
@@ -144,6 +144,31 @@ Nós configuramos nosso controlador ao DOM utilizando a diretive ng-controller e
 <div ng-controller="MinhaController">
    {{mensagem}}
 </div>
+~~~
+
+Criando métodos em seu objeto $scope.
+---
+
+No seu objeto $scope você pode adicionar functions em javascript para criar algum comportamento que seja necessário em seu DOM. Vamos criar um método em nosso $scope chamado verificaValor que vai receber um parametro numérico e mudar nossa outra propriedade chamada mensagem de acordo com o número passado. O código vai ficar assim:
+
+~~~javascript
+
+//Javascript
+var app = angular.module('app',[]);
+
+app.controller('MinhaController', ['$scope', function($scope) {
+  $scope.mensagem = 'meu segundo projeto';
+  $scople.verificaValor = function (valor){ 
+    if(valor > 0){
+        $scope.mensagem = 'O número digitado é positivo!';
+    }else if(valor < 0){
+        $scope.mensagem = 'O número digitado é negativo';
+    }else{
+        $scope.mensagem = 'Você digitou zero!';
+    }
+  };
+}]);
+
 ~~~
 
 
