@@ -119,7 +119,7 @@ Não utilize sua controller para:
 * Compartilhar códigos entre controllers.
 * Gerenciar o ciclo de vida de outros componentes.
 
-Configurando o estado inicial do objeto $scope
+Configurando as propriedades do objeto $scope
 ---
 Quando você cria uma controller normalmente você configura as propriedades do objeto do Angular($scope).
 Você configura o mesmo colocando propriedades que serão utilizadas pela view model. Todas as propriedades do seu $scope poderão ser utilizadas onde sua controller está registrada.
