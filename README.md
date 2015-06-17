@@ -109,7 +109,7 @@ Em angular uma controller é simplesmente um construtor em Javascript( uma funct
 Quando você coloca em seu HTML o ng-controller que é uma directive do Angular, o mesmo instancia um objeto de Controller com o construtor específico.
 
 A utilidade da controller é:
-* Setar o estado inicial do objeto $scope.
+* Setar propriedades ao objeto $scope.
 * Adicionar comportamentos ao objeto $scope.
 
 Não utilize sua controller para:
@@ -121,7 +121,7 @@ Não utilize sua controller para:
 
 Configurando o estado inicial do objeto $scope
 ---
-Quando você cria uma controller é necessário que você configure o estado inicial do objeto do Angular($scope).
+Quando você cria uma controller normalmente você configura as propriedades do objeto do Angular($scope).
 Você configura o mesmo colocando propriedades que serão utilizadas pela view model. Todas as propriedades do seu $scope poderão ser utilizadas onde sua controller está registrada.
 
 O exemplo abaixo mostra uma controller chamada MinhaController com uma propriedade chamada mensagem que contém uma string chamada 'meu segundo projeto':
