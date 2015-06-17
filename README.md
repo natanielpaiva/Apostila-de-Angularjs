@@ -180,7 +180,7 @@ Agora o código de HTML abaixo vai ter um simples input que vai chamar o comport
 </div>
 ~~~
 
-Herança de escopo de controllers
+Herança de escopo utilizando várias controllers
 ---
 Você pode utilizar diferentes níveis de controllers de acordo com hierarquia do seu DOM. Por exemplo, você pode utilizr a directive ng-controller em elementos pai, filhos e etc.
 
