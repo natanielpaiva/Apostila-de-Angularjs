@@ -12,5 +12,7 @@ Introdução ao AngularJs
 Conhecendo Controllers
 ---
 
+* Configurando as propriedades do objeto $scope
+* Criando métodos em seu objeto $scope.
 
 
