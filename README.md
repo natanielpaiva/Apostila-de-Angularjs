@@ -180,6 +180,61 @@ Agora o código de HTML abaixo vai ter um simples input que vai chamar o comport
 </div>
 ~~~
 
+Herança de escopo de controllers
+---
+Você pode utilizar diferentes níveis de controllers de acordo com hierarquia do seu DOM. Por exemplo, você pode utilizr a directive ng-controller em elementos pai, filhos e etc.
+
+Vamos ver o exemplo abaixo que explica exatamente como podemos utilizar essa herança de escopo:
+
+~~~javascript
+//Javascript
+var app = angular.module('heranca', []);
+app.controller('PaiController', ['$scope', function($scope){
+  $scope.turno = 'manhã';
+  $scope.nome = 'Nataniel';
+}]);
+app.controller('FilhoController', ['$scope', function($scope){
+  $scope.nome = 'Fulano';
+}]);
+app.controller('NetoController', ['$scope', function($scope){
+  $scope.nome = 'Paiva';
+  $scope.turno = 'Noite';
+}]);
+~~~
+
+~~~css
+/*CSS*/
+div.familia div{
+  padding:10px;
+  border: solid 2px blue;
+}
+~~~
+
+~~~html
+<!--HTML-->
+<div class="familia" ng-app="heranca">
+  <div ng-controller="PaiController">
+    <p>Good {{turno}}, {{nome}}!</p>
+    <div ng-controller="FilhoController">
+      <p>Good {{turno}}, {{nome}}!</p>
+      <div ng-controller="NetoController">
+        <p>Good {{turno}}, {{nome}}!</p>
+      </div>
+    </div>
+  </div>
+</div>
+~~~
+
+Com esse código acima foi gerado uma árvore em nosso template. Assim criamos quatro escopos em nossa view:
+
+* O escopo root
+* O escopo PaiController que contém as propriedades turno e nome.
+* O escopo FilhoController que contém a propriedade nome que foi sobrescrita e a propriedade turno que foi herdada.
+* O escopo NetoController que contém as duas propriedades sobrescritas.
+
+
+
+
 
 
 
