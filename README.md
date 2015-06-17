@@ -158,7 +158,7 @@ var app = angular.module('app',[]);
 
 app.controller('MinhaController', ['$scope', function($scope) {
   $scope.mensagem = 'meu segundo projeto';
-  $scople.verificaValor = function (valor){ 
+  $scope.verificaValor = function (valor){ 
     if(valor > 0){
         $scope.mensagem = 'O número digitado é positivo!';
     }else if(valor < 0){
@@ -170,6 +170,16 @@ app.controller('MinhaController', ['$scope', function($scope) {
 }]);
 
 ~~~
+
+Agora o código de HTML abaixo vai ter um simples input que vai chamar o comportamento que criamos para o objeto $scope de acordo com o que o valor do input for alterado através da directive ng-change.
+
+~~~html
+<div ng-app="app" ng-controller="MinhaController">
+  <input type="number" ng-model="campoNumero" ng-change="verificaValor(campoNumero)" />
+   {{mensagem}}
+</div>
+~~~
+
 
 
 
