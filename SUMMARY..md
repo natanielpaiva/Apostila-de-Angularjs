@@ -38,6 +38,7 @@ Templates
 * Filters
 * Forms
 
+Directives
 ---
 
 * O que são directives?
