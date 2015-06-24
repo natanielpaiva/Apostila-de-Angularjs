@@ -1,6 +1,6 @@
 # Sumário
 
-Introdução ao AngularJs
+AngularJs
 ---
 * Por que aprender AngularJs?
     * Vantagens em utilizar Angular
