@@ -232,7 +232,10 @@ Com esse código acima foi gerado uma árvore em nosso template. Assim criamos q
 * O escopo FilhoController que contém a propriedade nome que foi sobrescrita e a propriedade turno que foi herdada.
 * O escopo NetoController que contém as duas propriedades sobrescritas.
 
-
+Expressions
+---
+O que é Angular Expressions?
+Como 
 
 
 
