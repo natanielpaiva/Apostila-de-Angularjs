@@ -257,7 +257,17 @@ Seguem alguns exemplos de como se utilizar  Angular Expressions:
 ~~~
 
 Essse exemplo acima gera o seguinte resultado: 4+5=9
-Nós já utilizamos algumas expressions nos primeiros exemplos da apostila.
+Nós já utilizamos algumas expressions nos primeiros exemplos da apostila. Mas podemos utilizar exemplos como:
+
+~~~html
+<div>
+    {{usuario.nome}}
+</div>
+<!--Ou podemos utilizar arrays também-->
+<div>
+  {{usuario['nome']}}
+</div>
+~~~
 
 
 
