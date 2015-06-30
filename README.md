@@ -269,6 +269,23 @@ Nós já utilizamos algumas expressions nos primeiros exemplos da apostila. Mas 
 </div>
 ~~~
 
+Templates
+===
+
+Templates
+---
+
+Em Angular, templates são escritos em documentos HTML que contém alguns elementos e atributos específicos do Angular.
+O template combina informações de model e controller e renderiza esse conteúdo nas views de uma forma dinâmica para o usuário final.
+
+Veja alguns exemplos de tipos de elementos e atributos que podem ser utilizados no seu template:
+
+* Directive - Um atributo ou elemento existente existente no DOM ou que represente o seu reuso em forma de componente.
+* Markup - A notação em dupla chaves para que seja rendereizado o conteúdo de sua expression.
+* Filter - Formata dados a serem visualizados.
+* Form controls - Validação de inputs HTML.
+  
+
 
 
 
