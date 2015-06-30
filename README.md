@@ -233,9 +233,32 @@ Com esse código acima foi gerado uma árvore em nosso template. Assim criamos q
 * O escopo NetoController que contém as duas propriedades sobrescritas.
 
 Expressions
----
+===
 O que é Angular Expressions?
-Como 
+---
+
+Expressions em Angular são trechos de códigos em Javascript que são colocados entre duplas de chaves por exemplo: {{expression}}.
+
+Abaixo seguem algumas expressions válidas em Angular:
+
+ * 5+6
+ * a+b
+ * object.attribute
+ * array[key]
+
+Como utilizar Angular Expressions
+---
+Seguem alguns exemplos de como se utilizar  Angular Expressions:
+
+~~~html
+<div>
+  4+5={{4+5}}
+</div>
+~~~
+
+Essse exemplo acima gera o seguinte resultado: 4+5=9
+Nós já utilizamos algumas expressions nos primeiros exemplos da apostila.
+
 
 
 
