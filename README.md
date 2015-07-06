@@ -214,11 +214,11 @@ div.familia div{
 <!--HTML-->
 <div class="familia" ng-app="heranca">
   <div ng-controller="PaiController">
-    <p>Good {{turno}}, {{nome}}!</p>
+    <p> {{turno}}, {{nome}}!</p>
     <div ng-controller="FilhoController">
-      <p>Good {{turno}}, {{nome}}!</p>
+      <p> {{turno}}, {{nome}}!</p>
       <div ng-controller="NetoController">
-        <p>Good {{turno}}, {{nome}}!</p>
+        <p> {{turno}}, {{nome}}!</p>
       </div>
     </div>
   </div>
