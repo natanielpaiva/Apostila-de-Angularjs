@@ -284,6 +284,15 @@ Veja alguns exemplos de tipos de elementos e atributos que podem ser utilizados 
 * Markup - A notação em dupla chaves para que seja rendereizado o conteúdo de sua expression.
 * Filter - Formata dados a serem visualizados.
 * Form controls - Validação de inputs HTML.
+
+Directives
+===
+
+O que são directives?
+----
+
+
+
   
 
 
